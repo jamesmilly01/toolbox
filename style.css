@@ -1,0 +1,45 @@
+.topheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.tabsections{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dropzone{
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    color: #999;
+    cursor: pointer;
+}
+
+#image2pdf-preview {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+#image2pdf-preview img {
+    width: 150px;      /* fixed width */
+    height: 150px;     /* fixed height */
+    object-fit: cover; /* image crop karke fit karo */
+    border-radius: 8px;
+    border: 2px solid #dee2e6;
+    cursor: grab;      /* sortable ka indication */
+}
+.pdf-item {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px;
+    margin:6px 0;
+    background:#f1f1f1;
+    border-radius:6px;
+    cursor:grab;
+}
